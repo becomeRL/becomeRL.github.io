@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>웹 게임1</title>
+		<link rel="stylesheet" type="text/css" href="cs.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			var i = 0; 
+			var x = '순광이는 못말려'; 
+			var y = ""; 
+			function typeWriter() {
+			if (i < x.length) { 
+			$("#typing1").text(y+=x[i]) ; 
+			i++; 
+			setTimeout(typeWriter, 200);
+			} 
+			} 
+			typeWriter();
+			});
+		</script>
+	</head>
+	<body>
+		<p id="typing1"> </p>
+		<div id='bg1'>
+			<img src="https://cdn.clien.net/web/api/file/F01/5789692/ac380e1f463ed.png">
+		</div>
+		<div id='bt1'>
+			<form>
+				<input type="button";
+				id="ib1";
+				onclick="location.href='2.html'";>
+			</form>
+		</div>
+	</body>
+</html>

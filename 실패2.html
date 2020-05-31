@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>웹 게임1</title>
+		<link rel="stylesheet" type="text/css" href="cs.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			var i = 0; 
+			var x = 'Game Over'; 
+			var y = ""; 
+			function typeWriter() {
+			if (i < x.length) { 
+			$("#typing3").text(y+=x[i]) ; 
+			i++; 
+			setTimeout(typeWriter, 200);
+			} 
+			} 
+			typeWriter();
+			});
+		</script>
+	</head>
+	<body>
+		<p id="typing3"> </p>
+		<p id='pl2'>
+			약속 장소에 도착했으나 역시나 없다.<br>
+			봉알이한테 전화를 걸자,<br>
+			"순광. 어 왜?"<br>
+			"어디세요 남봉알씨?"<br>
+			"나 지금 대전인데 왜?"<br>
+			".... 아 장난치지 말고"<br>
+			"ㅋㅋㅋㅋㅋ 순광이는 바-보, 순광이는 바-보"<br>
+			실패2. 봉알이는 거짓말쟁이 </p>
+		<div id='bg1'>
+			<img src="https://i.ytimg.com/vi/jvDQBBSMPWE/maxresdefault.jpg">
+		</div>
+		<div id='btl1'>
+			<form>
+				<input type="button";
+				value="다시하기";
+				onclick="location.href='3.html'">
+			</form>
+		</div>
+	</body>
+</html>

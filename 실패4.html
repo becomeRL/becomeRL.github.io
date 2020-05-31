@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>웹 게임1</title>
+		<link rel="stylesheet" type="text/css" href="cs.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			var i = 0; 
+			var x = 'Game Over'; 
+			var y = ""; 
+			function typeWriter() {
+			if (i < x.length) { 
+			$("#typing3").text(y+=x[i]) ; 
+			i++; 
+			setTimeout(typeWriter, 200);
+			} 
+			} 
+			typeWriter();
+			});
+		</script>
+	</head>
+	<body>
+		<p id="typing3"> </p>
+		<p id='pl4'>
+			맹기한테 전화를 걸자,<br>
+			"고객님의 전화기가 꺼져있어 삐소리 이후....."<br>
+			맹기는 아직 군인이라 휴대폰이 자유롭지 않다.<br>
+			카톡 날짜를 보니 한 달 전이었고<br>
+			그 카톡을 안 읽었던 것이었다.<br>
+			실패4. 군바리 최맹기</p>
+		<div id='bg1'>
+			<img src="https://i.ytimg.com/vi/jvDQBBSMPWE/maxresdefault.jpg">
+		</div>
+		<div id='btl1'>
+			<form>
+				<input type="button";
+				value="다시하기";
+				onclick="location.href='3.html'">
+			</form>
+		</div>
+	</body>
+</html>

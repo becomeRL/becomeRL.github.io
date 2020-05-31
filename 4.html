@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<script>
+			function checkval()
+			{var val="11시";
+			if(val ==(document.getElementById("출력1").value))
+			{alert("Easy?");
+ 			window.open('5.1.html');
+  			}
+			else{
+			alert("과연?");
+  			window.open('5.2.html');}
+ 			}
+		</script>
+		<title>순광이의 하!루!</title>
+		<link rel="stylesheet" type="text/css" href="csig.css">
+	</head>
+	<body>
+		<div id="p4">
+			<p>21살 순광이는 저번 달에 병역의 의무를 마쳤다.</p>
+			<p>대학에 복학하는 시기가 아니라서 </p>
+			<p>순광이는 요즘 빈둥대며 집에서 쉬고 있었다.</p>
+			<p>드르르르렁..쿠우우울...크엉...컥.!</p>
+			<p>잠에서 깬 순광이는 시간을 확인한다.</p>
+			<img src='3am.jpg' style='width:100pt; height:100pt';>
+			<p>그런데 이 시계가 망가졌다는 사실이 기억났다.</p>
+			<p>'어제 밤 10시에 맞췄던 시계가 1시간마다 10분씩 늦더니</p>
+			<p>3시에 아예 멈춰버렸네... 한 7시간 잔거 같은데'</p>
+			<p>'그럼 지금 몇시지..?'</p>
+			<p>숫자+시 ex) '오후 5시'는 '17시'</p>
+		</div>
+		<div id='bg2'>
+			<img src="https://i.pinimg.com/originals/ca/33/7e/ca337e37c96e45e8e4ff844800cc7042.jpg">
+		</div>
+		<div id='bt4'>
+			<form name="aform">
+				<input type="text" name='result' size=15 id='출력1'/>
+				<input type="button" id="btn" value="정답" style= width:50 height=30 onclick="checkval()">
+			</form>
+		</div>
+	</body>
+</html>

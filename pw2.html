@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<script>
+			function checkval()
+			{var val="981028";
+			if(val ==(document.getElementById("출력1").value))
+			{alert("이 날은 무슨 날?");
+ 			window.open('8.1.html');
+  			}
+			else{
+			alert("Hint:덧셈,뺄셈,순서");
+  			}
+ 			}
+		</script>
+		<title>순광이의 하!루!</title>
+		<link rel="stylesheet" type="text/css" href="csig.css">
+	</head>
+	<body>
+		<div id='bg2'>
+			<img src="https://i.pinimg.com/originals/ca/33/7e/ca337e37c96e45e8e4ff844800cc7042.jpg">
+		</div>
+		<div id='ppw2'>
+			<p>비밀번호 힌트</p>
+			<p>[256734=658251]</p>
+			<p>[635215=443065]</p>
+			<p>[481092=901833]</p>
+			<p>[889011=?]</p>
+			<p>'이게 뭐야??'</p>
+			<p>'비밀번호를 다시 바꿀 수도 없고...'</p>
+			<p>'이걸 풀어야만 하는거네'</p>
+		</div>
+		<div id='btpw2'>
+			<form name="aform">
+				<input type="text" name='result' size=15 id='출력1'/>
+				<input type="button" id="btn" value="정답" style= width:50 height=30 onclick="checkval()">
+			</form>
+		</div>
+	</body>
+</html>

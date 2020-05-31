@@ -1,0 +1,360 @@
+﻿@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo&display=swap&subset=korean');
+
+#bg2{	
+	position: fixed;
+	top: 40%;
+	left: 0%;
+	width:100%;
+	height:-100%;
+}
+#bg2 img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+#p4{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 37%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt4{
+	position: absolute;
+	top: 95%;
+	left : 46%;
+	z-index: 1;
+}
+#p51{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 37%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bg3{	
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+	
+}
+#bg3 img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
+}
+#bt51{
+	position: absolute;
+	top: 60%;
+	left: 24%;
+	z-index: 1;
+}
+#tsramen{
+	background: url( "tsramen.jpg" ) no-repeat;
+	background-size: 50%;
+	border: none;
+	width: 150pt;
+	height: 150pt;
+}
+#bt511{
+	position: absolute;
+	top: 56%;
+	left: 50%;
+	z-index: 1;
+}
+#eggfry{
+	background: url( "egg.png" ) no-repeat;
+	background-size: 50%;
+	border: none;
+	width: 80pt;
+	height: 80pt;
+}
+#p52{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 33%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt52{
+	position: absolute;
+	top: 83%;
+	left: 48%;
+	z-index: 1;
+}
+#p61, #p62{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 39%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt61, #bt62{
+	position: absolute;
+	top: 76%;
+	left : 47%;
+	z-index: 1;
+}
+#p70{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 37%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt70{
+	position: absolute;
+	top: 45%;
+	left : 46.5%;
+	z-index: 1;
+}
+#utube{
+	background: url( "https://lh3.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc" ) no-repeat;
+	background-size: 50%;
+	border: none;
+	width: 150pt;
+	height: 150pt;
+}
+#pphone{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 41%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#btphone{
+	position: absolute;
+	top: 95%;
+	left : 45%;
+	z-index: 1;
+}
+#p71{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 75%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt71{
+	position: absolute;
+	top: 63%;
+	left: 3.3%;
+	z-index: 1;
+}
+#legeno{
+	background: url( "legeno.jpg" ) no-repeat;
+	background-size: 50%;
+	border: none;
+	width: 70pt;
+	height: 70pt;
+}
+#bt711{
+	position: absolute;
+	top: 70%;
+	left: 3.3%;
+	z-index: 1;
+}
+#soontory{
+	background: url( "soontory.jpg" ) no-repeat;
+	background-size: 50%;
+	border: none;
+	width: 70pt;
+	height: 70pt;
+}
+#p9, #p101{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 70%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt91{
+	position: absolute;
+	top: 10%;
+	left: 60%;
+	z-index: 1;
+}
+#bt92{
+	position: absolute;
+	top: 30%;
+	left: 60%;
+	z-index: 1;
+}
+#bt93{
+	position: absolute;
+	top: 52%;
+	left: 60%;
+	z-index: 1;
+}
+#bt94{
+	position: absolute;
+	top: 74%;
+	left: 60%;
+	z-index: 1;
+}
+#call1, #call2, #call3, #call4{
+	background: url( "https://i.pinimg.com/474x/73/5d/6d/735d6d9a98c0acf64a291dc1fc442aa9.jpg" ) no-repeat;
+	background-size: 50%;
+	border: none;
+	width: 70pt;
+	height: 70pt;
+}
+#p73{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 32%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt73{
+	position: absolute;
+	top: 99%;
+	left : 45%;
+	z-index: 1;
+}
+#ppw1{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 75%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#btpw1{
+	position: absolute;
+	top: 57%;
+	left : 29%;
+	z-index: 1;
+}
+#ppw2{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 43%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#btpw2{
+	position: absolute;
+	top: 65%;
+	left : 46%;
+	z-index: 1;
+}
+#ppw3{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 75%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#btpw3{
+	position: absolute;
+	top: 57%;
+	left : 83%;
+	z-index: 1;
+}
+#p81{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 39%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt81{
+	position: absolute;
+	top: 120%;
+	left : 48%;
+	z-index: 1;
+}
+#bronz{
+	background: url( "bronz.jpg" ) no-repeat;
+	background-size: 50%;
+	border: none;
+	width: 170pt;
+	height: 170pt;
+}
+#p82{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 40%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt82{
+	position: absolute;
+	top: 58%;
+	left : 41%;
+	z-index: 1;
+}
+#mejatime{
+	background: url( "https://image.fmkorea.com/files/attach/new/20200428/1135415169/20259300/2885175475/76f5e0d1b40e8872a94527536b9382f1.png" ) no-repeat;
+	background-size: 100%;
+	border: none;
+	width: 250pt;
+	height: 250pt;
+}
+#p10{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 38%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt10{
+	position: absolute;
+	top: 92%;
+	left : 47%;
+	z-index: 1;
+}
+#p11{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 36%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt11{
+	position: absolute;
+	top: 98%;
+	left : 45%;
+	z-index: 1;
+}
+#p12{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 40%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt12{
+	position: absolute;
+	top: 128%;
+	left : 47%;
+	z-index: 1;
+}
+
