@@ -73,13 +73,10 @@ button{
 	left : 45%;
 	z-index: 1;
 }
-
-#ib3 {
-	background: url( "555.jpg" ) no-repeat;
-	background-size: 80%;
-	border: none;
-	width:200pt;
-	height:200pt;
+#bt3 img{
+	position: absolute; top:0; left: 0;
+	width: 100%;
+	height: 100%;
 }
 #pl{
 	font-size: 2rem; 
