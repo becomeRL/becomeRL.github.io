@@ -118,6 +118,20 @@
 	width:80pt;
 	height:80pt
 }
+#p73{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 32%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt73{
+	position: absolute;
+	top: 99%;
+	left : 45%;
+	z-index: 1;
+}
 #p70{
 	font-size: 2rem; 
 	position: absolute;
