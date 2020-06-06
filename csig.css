@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo&display=swap&subset=korean');
+@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo&display=swap&subset=korean');
 
 #bg2{	
 	position: fixed;
@@ -61,12 +61,11 @@
 	left: 24%;
 	z-index: 1;
 }
-#tsramen{
-	background: url( "tsramen.jpg" ) no-repeat;
-	background-size: 50%;
-	border: none;
-	width: 150pt;
-	height: 150pt;
+
+#bt51 img, #bt511 img{
+	position: absolute; top:0; left: 0;
+	width: 100%;
+	height: 100%;
 }
 #bt511{
 	position: absolute;
@@ -74,12 +73,13 @@
 	left: 50%;
 	z-index: 1;
 }
-#eggfry{
-	background: url( "egg.png" ) no-repeat;
-	background-size: 50%;
-	border: none;
+#b51{
 	width: 80pt;
 	height: 80pt;
+}
+#b511{
+	width: 50pt;
+	height: 50pt;
 }
 #p52{
 	font-size: 2rem; 
@@ -103,11 +103,20 @@
 	z-index: 1;
 	font-family: 'East Sea Dokdo', cursive;
 }
-#bt61, #bt62{
+#bt61{
 	position: absolute;
 	top: 76%;
 	left : 47%;
 	z-index: 1;
+}
+#bt61 img{
+	position: absolute; top:0; left: 0;
+	width: 100%;
+	height: 100%;
+}
+#b61{
+	width:80pt;
+	height:80pt
 }
 #p70{
 	font-size: 2rem; 
@@ -123,13 +132,7 @@
 	left : 46.5%;
 	z-index: 1;
 }
-#utube{
-	background: url( "https://lh3.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc" ) no-repeat;
-	background-size: 50%;
-	border: none;
-	width: 150pt;
-	height: 150pt;
-}
+
 #pphone{
 	font-size: 2rem; 
 	position: absolute;
@@ -158,78 +161,20 @@
 	left: 3.3%;
 	z-index: 1;
 }
-#legeno{
-	background: url( "legeno.jpg" ) no-repeat;
-	background-size: 50%;
-	border: none;
-	width: 70pt;
-	height: 70pt;
-}
 #bt711{
 	position: absolute;
 	top: 70%;
 	left: 3.3%;
 	z-index: 1;
 }
-#soontory{
-	background: url( "soontory.jpg" ) no-repeat;
-	background-size: 50%;
-	border: none;
-	width: 70pt;
-	height: 70pt;
+#bt71 img, #bt711 img{
+	position: absolute; top:0; left: 0;
+	width: 100%;
+	height: 100%;
 }
-#p9, #p101{
-	font-size: 2rem; 
-	position: absolute;
-	text-align: center;
-	left: 70%;
-	z-index: 1;
-	font-family: 'East Sea Dokdo', cursive;
-}
-#bt91{
-	position: absolute;
-	top: 10%;
-	left: 60%;
-	z-index: 1;
-}
-#bt92{
-	position: absolute;
-	top: 30%;
-	left: 60%;
-	z-index: 1;
-}
-#bt93{
-	position: absolute;
-	top: 52%;
-	left: 60%;
-	z-index: 1;
-}
-#bt94{
-	position: absolute;
-	top: 74%;
-	left: 60%;
-	z-index: 1;
-}
-#call1, #call2, #call3, #call4{
-	background: url( "https://i.pinimg.com/474x/73/5d/6d/735d6d9a98c0acf64a291dc1fc442aa9.jpg" ) no-repeat;
-	background-size: 50%;
-	border: none;
-	width: 70pt;
-	height: 70pt;
-}
-#p73{
-	font-size: 2rem; 
-	position: absolute;
-	text-align: center;
-	left: 32%;
-	z-index: 1;
-	font-family: 'East Sea Dokdo', cursive;
-}
-#bt73{
-	position: absolute;
-	top: 99%;
-	left : 45%;
-	z-index: 1;
+#b71, #b711{
+	width: 50pt;
+	height: 50pt;
 }
 #ppw1{
 	font-size: 2rem; 
@@ -284,16 +229,10 @@
 #bt81{
 	position: absolute;
 	top: 120%;
-	left : 48%;
+	left : 46%;
 	z-index: 1;
 }
-#bronz{
-	background: url( "bronz.jpg" ) no-repeat;
-	background-size: 50%;
-	border: none;
-	width: 170pt;
-	height: 170pt;
-}
+
 #p82{
 	font-size: 2rem; 
 	position: absolute;
@@ -305,15 +244,62 @@
 #bt82{
 	position: absolute;
 	top: 58%;
-	left : 41%;
+	left : 45%;
 	z-index: 1;
 }
-#mejatime{
-	background: url( "https://image.fmkorea.com/files/attach/new/20200428/1135415169/20259300/2885175475/76f5e0d1b40e8872a94527536b9382f1.png" ) no-repeat;
-	background-size: 100%;
-	border: none;
-	width: 250pt;
-	height: 250pt;
+#bt81 img, #bt82 img{
+	position: absolute; top:0; left: 0;
+	width: 100%;
+	height: 100%;
+}
+#b81{ 
+	width: 120pt;
+	height: 120pt;
+}
+#b82{ 
+	width: 150pt;
+	height: 150pt;
+}
+#p9{
+	font-size: 2rem; 
+	position: absolute;
+	text-align: center;
+	left: 70%;
+	z-index: 1;
+	font-family: 'East Sea Dokdo', cursive;
+}
+#bt91{
+	position: absolute;
+	top: 10%;
+	left: 60%;
+	z-index: 1;
+}
+#bt92{
+	position: absolute;
+	top: 30%;
+	left: 60%;
+	z-index: 1;
+}
+#bt93{
+	position: absolute;
+	top: 52%;
+	left: 60%;
+	z-index: 1;
+}
+#bt94{
+	position: absolute;
+	top: 74%;
+	left: 60%;
+	z-index: 1;
+}
+#bt91 img, #bt92 img, #bt93 img, #bt94 img{
+	position: absolute; top:0; left: 0;
+	width: 100%;
+	height: 100%;
+}
+#b9{ 
+	width: 50pt;
+	height: 50pt;
 }
 #p10{
 	font-size: 2rem; 
