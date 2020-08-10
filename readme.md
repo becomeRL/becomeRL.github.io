@@ -8,5 +8,5 @@
     3. 문제가 나오면 그 문제를 풀면 된다. 
     4. -끝-
 
-<img src="https://lightningchoe.github.io/" width="300" height='200'>
+<img src="https://user-images.githubusercontent.com/66203652/89779822-264f9000-db4b-11ea-80fc-290e63defd88.png/" width="300" height='200'>
 
